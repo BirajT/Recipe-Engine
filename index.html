@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recipe-Engine</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="main">
-    <h1>Recipe App</h1>
-    <div class="nav">
-    <input type="text" id="Value" placeholder="Enter a Recipe">
-    <button type="button">Search</button>
+  <header class="header">
+    <h1>🍳 Recipe Finder</h1>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search for a recipe..." />
+      <button id="searchBtn">Search</button>
     </div>
-    </div>
-    <h2>Search Your Favourite Recipes</h2>
-    
+  </header>
+
+  <main id="recipeContainer" class="recipe-container">
+    <p class="placeholder">Search for recipes to see results here...</p>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
-<script src="script.js"></script>
