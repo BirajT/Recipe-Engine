@@ -23,7 +23,7 @@ btn.addEventListener("click", () => {
             <p><strong>Instructions:</strong> ${r.instructions.join(" ")}</p>
             <p><strong>⏱ Prep:</strong> ${r.prepTimeMinutes} min | <strong>Cook:</strong> ${r.cookTimeMinutes} min</p>
             <p><strong>Servings:</strong> ${r.servings} | <strong>Difficulty:</strong> ${r.difficulty}</p>
-            <p><strong>⭐ Rating:</strong> ${r.rating} (${r.reviewCount} reviews)</p>
+            <p><strong>Rating:</strong> ${r.rating} (${r.reviewCount} reviews)</p>
           </div>
         `).join("");
 
